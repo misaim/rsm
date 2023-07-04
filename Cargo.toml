@@ -21,3 +21,7 @@ arboard = { version = "3.2" }
 
 [profile.dev]
 incremental = true
+
+[profile.release]
+opt-level = "z"
+lto = true
