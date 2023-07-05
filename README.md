@@ -1,6 +1,6 @@
 # rsm
 
-A CLI tool to copy an AWS ssm connection string to the clipboard for a given list of instances via the AWS SDK for Rust. 
+Rust Session Manager is a CLI tool to copy an AWS ssm connection string to the clipboard for a given list of instances via the AWS SDK for Rust. 
 
 Hacked together while understanding the Rust AWS SDK: improvement pr's and code reviews welcomed!
 
