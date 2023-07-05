@@ -4,6 +4,8 @@ A smallish binary to read EC2 instances and copy an AWS SSM connection string to
 
 Hacked together while understanding the Rust AWS SDK: don't shoot me.
 
+![rsm-example](https://github.com/misaim/rsm/assets/13842895/8cfd52ac-fbaa-4686-92f1-859887095438)
+
 ## dependancies 
 `cargo` - Note - The Rust AWS SDK is pretty dep-heavy right now. First builds will be slow, incremental builds should be significantly faster.
 
