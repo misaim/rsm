@@ -70,7 +70,7 @@ async fn main() -> Result<(), ()> {
         }
         siv.add_layer(
             Panel::new(instance_select)
-                .title("Select a profile")
+                .title("Select an instance")
                 .full_screen()
         );
     }
