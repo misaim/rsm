@@ -1,4 +1,5 @@
-# Every field in a theme file is optional.
+# misaim: I've left this file mostly original, with things commented out.
+# I don't pretend to know or understand cursive's theme system. 
 
 shadow = false
 borders = "simple" # Alternatives are "none" and "simple" (originally "outset")
@@ -33,11 +34,12 @@ borders = "simple" # Alternatives are "none" and "simple" (originally "outset")
 	title_primary   =  "#FFFFFF" # Title color
 	#title_secondary = "#FFFFFF"
 
-	# Lower precision values can use only 3 digits.
-	highlight          = "#F08080"
+	highlight          = "#EB529f"
 	highlight_inactive = "#5555FF"
+	HighlightText = "#FFFFFF"
 
-[styles.highlight]
-    effects = []
+#[styles.highlight]
+    #effects = []
+	#primary = "#FFFFFF"
     #front = "#FFFFFF"
-    back = "#FFFFFF"
+    #back = "#FFFFFF"

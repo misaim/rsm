@@ -4,20 +4,17 @@ version = "0.1.0"
 edition = "2021"
 authors = ["Misaim <liamfrappell@gmail.com>"]
 license = "MIT OR Apache-2.0"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+repository = "https://github.com/misaim/rsm/"
 
 [dependencies]
 aws-config = "0.55"
-aws-sdk-dynamodb = "0.28"
 aws-sdk-ec2 = "0.28"
 clap = { version = "4.3", features = ["derive"] }
 tokio = { version = "1.29", features = ["full"] }
-cursive = { version = "*", features = ["toml"] }
+cursive = { version = "0.20", features = ["toml"] }
 serde = { version = "1.0.164", features = ["derive"] }
 serde_json = "1.0" 
 arboard = { version = "3.2" }
-
 
 [profile.dev]
 incremental = true

@@ -1,10 +1,11 @@
 all:
-	echo "Building without server, -Os"
+	echo "No Target. Try make run"
 
 build: src/main.rs style.toml
 	cargo build 
 
-release:
+release: clean
+	mkdir -p bin
 	rm -rf bin/*
 	cargo build --release
 	cp target/release/rsm bin/rsm
@@ -14,4 +15,5 @@ run: build
 
 clean:
 	cargo clean
+	rm -rf bin/
 
