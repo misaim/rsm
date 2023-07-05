@@ -4,7 +4,7 @@ Rust Session Manager is a CLI tool to copy an AWS ssm connection string to the c
 
 Hacked together while understanding the Rust AWS SDK: improvement pr's and code reviews welcomed!
 
-![rsm-example](https://github.com/misaim/rsm/assets/13842895/8cfd52ac-fbaa-4686-92f1-859887095438)
+![rsm-example](https://github.com/misaim/rsm/assets/13842895/e48bb9c7-845f-4909-835d-fb456c721bf8)
 
 ## dependancies 
 `cargo` - Note - The Rust AWS SDK is pretty dep-heavy right now. First builds will be slow, incremental builds should be significantly faster.
