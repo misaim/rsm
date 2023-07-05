@@ -6,7 +6,7 @@ Hacked together while understanding the Rust AWS SDK: improvement pr's and code 
 
 ![rsm-example](https://github.com/misaim/rsm/assets/13842895/e48bb9c7-845f-4909-835d-fb456c721bf8)
 
-## dependancies 
+## dependencies 
 `cargo` - Note - The Rust AWS SDK is pretty dep-heavy right now. First builds will be slow, incremental builds should be significantly faster.
 
 `cursive`, the TUI library used requires ncurses. Please install: https://github.com/gyscos/cursive/wiki/Install-ncurses
