@@ -1,8 +1,8 @@
 # rsm
 
-A smallish binary to read EC2 instances and copy an AWS SSM connection string to the clipboard. 
+A CLI tool to copy an AWS ssm connection string to the clipboard for a given list of instances via the AWS SDK for Rust. 
 
-Hacked together while understanding the Rust AWS SDK: don't shoot me.
+Hacked together while understanding the Rust AWS SDK: improvement pr's and code reviews welcomed!
 
 ![rsm-example](https://github.com/misaim/rsm/assets/13842895/8cfd52ac-fbaa-4686-92f1-859887095438)
 
